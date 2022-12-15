@@ -1,61 +1,61 @@
-*{
-    font-family: 'Courier New', Courier, monospace;
+* {
+  font-family: 'Courier New', Courier, monospace;
 }
 
-h1{
-    color:rgba(50, 39, 146, 0.8);
-    color:hsl(299, 72%, 43%);
-     /* r: red, g:green, b:blue. isteğe bağlı a :alpha=saydamlık kullanılabilir */
-     /* color: #f63232;  */
-     /* red yerine üstteki hex kodunu kullanabiliriz */
-     /* HSL=hue:renk tonu, saturation:rengin yoğunluğu belirginliği, lightness:hafiflik ışık */
-    
-     text-align:center;
-    
-     text-decoration: line-through;
-     text-decoration: underline;
-     text-decoration: overline;
-    /* line-through=yazının üstünü çizmek,underline=altını, overline=üstünü */
-    
-    
-    text-decoration-style:dashed;
-    text-decoration-style:dotted;
-    text-decoration-style:wavy;
-    text-decoration-style:double;
-    /* dashed=kesik çizgi,dotted=nokta nokta, double=iki çizgi,wavy=dalga  */
-    
-    text-decoration:blue wavy  underline overline 10px ;
-    
-    text-transform:uppercase;
-    text-transform:lowercase;
-    text-transform:capitalize;
-    
-    word-spacing: 15px; 
-    /* kelimeler arası boşluk */
-    
-    letter-spacing: 5px;
-    /* harfler arası boşluk */
-    }
+h1 {
+  color: rgba(50, 39, 146, 0.8);
+  color: hsl(299, 72%, 43%);
+  /* r: red, g:green, b:blue. isteğe bağlı a :alpha=saydamlık kullanılabilir */
+  /* color: #f63232;  */
+  /* red yerine üstteki hex kodunu kullanabiliriz */
+  /* HSL=hue:renk tonu, saturation:rengin yoğunluğu belirginliği, lightness:hafiflik ışık */
 
-    p{
-text-indent: 20px; 
-line-height: 30px;
+  text-align: center;
 
-    }
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration: overline;
+  /* line-through=yazının üstünü çizmek,underline=altını, overline=üstünü */
 
-li{
+  text-decoration-style: dashed;
+  text-decoration-style: dotted;
+  text-decoration-style: wavy;
+  text-decoration-style: double;
+  /* dashed=kesik çizgi,dotted=nokta nokta, double=iki çizgi,wavy=dalga  */
 
-    background-color: lightgreen;
+  text-decoration: blue wavy underline overline 10px;
+
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+
+  word-spacing: 15px;
+  /* kelimeler arası boşluk */
+
+  letter-spacing: 5px;
+  /* harfler arası boşluk */
 }
-.tatli{
-    list-style-position: inside;
-    list-style-type: "💔";
-    list-style-image: url(../assets/img/arrow-right-long-solid.svg);
+p {
+  text-indent: 20px; /* satır başı boşluk*/
+
+  line-height: 30px; /* satırlar arası boşluk*/
 }
 
-h3{
-    direction: rtl;
-    
+li {
+  background-color: lightgreen;
+}
+.tatli {
+  list-style-position: inside;
+
+  list-style-image: url(../assets/img/arrow-right-long-solid.svg);
+
+  list-style-type: square;
+  list-style-type: '💗';
 }
 
+h3 {
+  /* text-align:end; */
+  direction: rtl;
 
+  /* sağdan sola yerlerini değiştir ve sağa yapıştır */
+}
