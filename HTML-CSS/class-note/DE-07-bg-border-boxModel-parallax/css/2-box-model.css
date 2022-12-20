@@ -1,0 +1,37 @@
+.olcusuz-box{
+    background-color: orange;
+    border: 15px solid red;
+    margin: 20px 85px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.olcusuz-content{
+    background-color: yellow;
+    border: 15px solid red;
+    margin: 20px 85px;
+    padding: 50px;
+}
+
+/* box-sizing: border-box;width height verilmesse ise yaramaz */
+.box{
+    background-color: orange;
+    border: 15px solid red;
+    margin: 20px 85px;
+    padding: 50px;
+    width: 300px;
+    /* width: 50%; */
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.content{
+    background-color: yellow;
+    border: 15px solid red;
+    margin: 20px 85px;
+    padding: 50px;
+    width: 300px;
+     /* width: 50%; */
+    height: 200px;
+    /* box-sizing: border-box; */
+}

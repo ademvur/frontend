@@ -1,0 +1,37 @@
+*{
+    font-family:'DynaPuff', cursive; 
+}
+
+.list .aktif{background-color: black;}
+/* iki klas arasina bosluk konulmasi gerekir. */
+.menu li{
+    background-color: gray;
+    color: red;
+}
+
+a{
+    color: orange;
+}
+
+.aktif:hover{
+    background-color: pink;
+}
+li:hover{
+    background-color: red;
+    color: aqua;
+}
+
+a:hover{
+    color: blueviolet;
+}
+/* hover gibi pseudo classlar solundaki elemente bitişik yazılır, : nokta konulur.
+2 ve daha fazla class ismini aynı anda yazacaksak aralarında boşluk almalı */
+.list{
+    list-style-position: inside;
+    list-style-type: "🌵" ;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
