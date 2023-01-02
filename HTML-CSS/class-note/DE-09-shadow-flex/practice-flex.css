@@ -1,0 +1,23 @@
+/*! kendi yazdığım variable css ini çağırdım */
+
+@import "variable.css";
+
+body{
+font-family:var(--ff-montserrat)
+
+}
+nav{
+ display: flex;
+}
+
+nav .left, nav .middle, nav .right{
+ border:1px solid red;
+/* bütün child lar eşit büyüsün (padding ler hariç) o yüzden herbirine alttakini yazdım */
+ flex-grow:1;
+flex-basis:0;
+/* width:33%; */
+/*!Tüm elemanların (gri açık mavi mavi alan) ekran büyüse de küçülse de eşit miktarda alan tutabilmesine izin ver.3 tane div browser da 3 parçada duracak, bunu vermezsek ekran küçülünce ortadaki yazılar cürmü kadar yer alıyor alta inmiyor, eleman çoğaltsakta nav daki yer tamamen bitince iniyor, diğerlerinden daha çok yer kaplıyor. default olan=> flex-basis:auto= ekran küçülünce herkes ihtiyacı kadar yer kaplasın*/
+}
+nav .right{
+background-color: var(--mavi-7);
+}

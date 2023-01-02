@@ -1,0 +1,34 @@
+.conteiner{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr ) ;
+    grid-template-rows:repeat(4,15vh)15vh 15vh ;
+    gap: 10px 20px;
+
+
+}
+
+.parca{
+    border: 1px solid gray;
+
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.parca1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: pink;
+
+}
+.parca4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: rgb(255, 251, 192);
+
+}
+
+.parca6{
+    background-image: url(../assets/html-css-js.png);
+}
